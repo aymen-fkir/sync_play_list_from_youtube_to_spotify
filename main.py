@@ -13,7 +13,7 @@ client_secret = os.getenv("client_secret")
 redirect_uri = os.getenv("redirect_uri") 
 scope = os.getenv("scope") 
 key = os.getenv("Api_key") 
-sp_play_list_id = os.get("sp_play_list_id")
+sp_play_list_id = os.getenv("sp_play_list_id")
 
 
 # spotify auth manging
