@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sotify</title>
+    <title>Synco</title>
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    <h1>Url</h1>
-    <form action="/send" method="POST">    
-        <label for="inputString">mix url:</label>
-        <input type="text" id="inputString" name="url" placeholder="Type your url here">
-        <label for="inputString">spotify play list ID:</label>
-        <input type="text" id="inputString" name="sp_url" placeholder="Type The ID">
-        <button  type="submit" class="form-control btn btn-primary submit px-3">Submit</button>
-        <p id="displayArea"></p>
-    </form>
-    
+    <div class="main_box">
+        
+        <form action="/send" method="POST" class="form">    
+            <label for="inputString">mix url</label>
+            <input type="text" id="inputString" name="url" placeholder="Type your url here">
+            <label for="inputString">spotify play list ID</label>
+            <input type="text" id="inputString" name="sp_url" placeholder="Type The ID">
+            <button  type="submit" class="button">Submit</button>
+            <p id="displayArea"></p>
+        </form>
+    </div>
 </body>
 </html>
